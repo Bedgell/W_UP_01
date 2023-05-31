@@ -46,7 +46,7 @@ basicCN <- ggplot(mydata,aes(x=position,y=pushups))
 
 basicCN + geom_boxplot()
 ```
-
+When looking at the graph it is broken down into two separate player types. It shows the averages of pushups each type of player can do. It should also be noted the player pool form "Skill" players and "Line" players, is larger showing a larger graph. 
 
 
 
@@ -59,7 +59,7 @@ basicCN + geom_boxplot()
 favstats(pushups~position,data=mydata)
 ```
 
-When looking at the graph it is broken down into two separate player types. It shows the averages of pushups each type of player can do. It should also be noted the player pool form "Skill" players and "Line" players, is larger showing a larger graph.  
+ 
 
 ## Inferential Results
 
